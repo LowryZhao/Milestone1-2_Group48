@@ -8,8 +8,8 @@
 | Student No. | Full Name | GitHub Username | Contribution (sum to 100%) | 
 |-------------|-----------|-----------------|----------------------------|
 | s5290341    | Zhongyue Qiu| Leia-Q0107    | 33.3% or Equal             |
-| s5226106    | Lowry Zhao |                | 33.3% or Equal             | 
-| s333333     | Jiaxin Lin | xxx            | 33.3% or Equal             | 
+| s5226106    | Lowry Zhao | LowryZhao      | 33.3% or Equal             | 
+| s5261308    | Jiaxin Lin | AllenLinAU     | 33.3% or Equal             | 
 
 ### Brief Description of Contribution
 
