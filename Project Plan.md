@@ -1,24 +1,24 @@
 # Project Plan
 
-## Project Name: XXXX
-## Group Number: 001
+## Project Name: Nutritional Food Database Project
+## Group Number: 48
 
 ### Team members
 
 | Student No. | Full Name | GitHub Username | Contribution (sum to 100%) | 
 |-------------|-----------|-----------------|----------------------------|
-| s111111     | Full name | xxx             | 33.3% or Equal             |
-| s222222     | Full name | xxx             | 33.3% or Equal             | 
-| s333333     | Full name | xxx             | 33.3% or Equal             | 
+| s5290341    | Zhongyue Qiu| Leia-Q0107    | 33.3% or Equal             |
+| s5226106    | Lowry Zhao |                | 33.3% or Equal             | 
+| s333333     | Jiaxin Lin | xxx            | 33.3% or Equal             | 
 
 ### Brief Description of Contribution
 
 Please Describe what you have accomplished in this group project.
-- s111111, Full name
+- s5290341, Zhongyue Qiu
+  - Accomplishments: I completed the gannt chart, WBS, and Use Case Diagram. Also, a main part of project plan.
+- s5226106, Lowry Zhao
   - Accomplishments: Describe what you have completed or achieved
-- s222222, Full name
-  - Accomplishments: Describe what you have completed or achieved
-- s333333, full name
+- s333333, Jiaxin Lin
   - Accomplishments: Describe what you have completed or achieved
 
 <div style="page-break-after: always;"></div>
