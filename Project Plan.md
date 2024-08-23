@@ -15,7 +15,7 @@
 
 Please Describe what you have accomplished in this group project.
 - s5290341, Zhongyue Qiu
-  - Accomplishments: I completed the gannt chart, WBS, and Use Case Diagram. Also, a main part of project plan.
+  - Accomplishments: I completed the gantt chart, WBS, and Use Case Diagram. Also, a main part of project plan.
 - s5226106, Lowry Zhao
   - Accomplishments: Describe what you have completed or achieved
 - s333333, Jiaxin Lin
@@ -77,5 +77,5 @@ You have to use the provided Gantt chart template.
 Use the provided Gantt chart template to list all items from the Activity Definition along with relevant estimates 
 and scheduling. Ensure that the Gantt chart reflects the activity definitions from Section 3. Track actual start 
 times and durations. Besides including Gantt chart here, you should also submit your Gantt chart file separately.
-![Gantt Chart](./Gantt_Chart.png)
+![Gantt Chart](./Gantt_chart.png)
 
