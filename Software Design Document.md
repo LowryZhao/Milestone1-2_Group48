@@ -1,6 +1,6 @@
 # Software Design Document
 
-## Project Name: Nutritional Food Database Project
+## Project Name: Desktop Application Project
 ## Group Number: 48
 
 ## Team members
