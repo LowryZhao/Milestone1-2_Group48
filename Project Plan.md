@@ -102,5 +102,5 @@ You have to use the provided Gantt chart template.
 Use the provided Gantt chart template to list all items from the Activity Definition along with relevant estimates 
 and scheduling. Ensure that the Gantt chart reflects the activity definitions from Section 3. Track actual start 
 times and durations. Besides including Gantt chart here, you should also submit your Gantt chart file separately.
-![Gantt chart](./Gantt_chart.png)
+![Gantt chart](./Gantt chart.png)
 
