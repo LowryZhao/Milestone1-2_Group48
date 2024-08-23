@@ -45,15 +45,15 @@ Please Describe what you have accomplished in this group project.
 
 ### 1.1 Project Objectives
 
-Establish objectives or goals that the project aims to achieve.
+For this Desktop application project, it aims to design and provide a useful tool to analyse dataset and visualise the data for different users. The user-friendly interface is a core objective for this desktop application. This feature will be represented by creating a graphical user interface (GUI) for users to easily and visually access the information of large amounts of data. On addition, data analysis capabilities is another important objective in this desktop application project. It mainly supports desktop application to execute the analysis of mass data, the functionality of filtering useless data, the summary of statistics and the aggregations of data information. Furthermore, visualisation is also a indispensable objectives during the design and implementation of desktop application project. It assists desktop application to implement and display different kinds of visual performance for users to easily understand the mode and trend of data. The visualisation will performed by different types of charts, such as column, bar, line, area and pie. The above objectives design together will display a desktop application with user-friendly, functionalities and data visualisation features.
 
 ### 1.2 Project Stakeholders
 
-Identify all key stakeholders involved in the project, including internal teams and potential end-users.
+There are two types of stakeholders relate to this desktop application. One is in the internal teams, which consist of software engieers, UI/UX designers, application testers, data analysts and project management members. Another is potential users, it primarily contains business decision makers and individuals.
 
 ### 1.3 Project Scope
 
-Define and manage what is included or excluded in the project and product.
+During the desktop application project and the final application product, the clear scope will includes three objectives are illustrated in the section 1.1. Also, user acceptance testing is significant process at the end of project. It assist application to identify issues and improve the system functions. Additionally, user guidelines, IT support and feedback channel are essential for this desktop application product to develop the application system for users to conveniently access the functions of analysing and visualising data. On the other hand, this desktop application project and product excludes *** repeate doing duplicate and useless task processes, the use of third-party applications and unrelated resources.(Draft here!)
 
 ## 2. Work Breakdown Structure
 
