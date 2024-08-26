@@ -61,8 +61,10 @@
   Output:\
   **By searching for the name of a food, specific data on all nutrients contained in that food will be displayed. By selecting a single food, pie charts and bar charts will be displayed. 
   By screening the specific range of nutrients, foods that meet the standards will be displayed.**
-- Target Users: Who will use the system, and why?
-  ****
+- Target Users: \
+  **Nutritionist: Analyze and recommend foods based on different dietary needs. \
+    Healthcare professionals: assess and provide recommendations based on health status. \
+    The general public: improving health.**
 
 ### 1.2 System capabilities/overview
 
