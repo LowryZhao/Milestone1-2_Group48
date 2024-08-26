@@ -50,13 +50,15 @@
 ### 1.1 Problem Background
 
 - Problem Identification: \
-    With the continuous development of living standards, people's demand for health and nutrition is increasing, but few people go back to consult professional nutrition analysts and 
-  doctors. The development of this software is aimed at helping people search and view specific information about the nutrients contained in various foods more easily and quickly.
+    **With the continuous development of living standards, people's demand for health and nutrition is increasing, but few people go back to consult professional nutrition analysts and 
+  doctors. The development of this software is aimed at helping people search and view specific information about the nutrients contained in various foods more easily and quickly.**
 - Dataset: \
-    The dataset used by this software is Nutritional-Food-Database provided by the course, which contains detailed nutritional information of various foods. These data include the names of 
-  various foods, as well as the specific values of the nutrients provided, such as calories, fat, protein, and vitamins.
+    **The dataset used by this software is Nutritional-Food-Database provided by the course, which contains detailed nutritional information of various foods. These data include the names 
+  of various foods, as well as the specific values of the nutrients provided, such as calories, fat, protein, and vitamins.**
 - Data Input/Output: What kind of data input and output is required?
+  ****
 - Target Users: Who will use the system, and why?
+  ****
 
 ### 1.2 System capabilities/overview
 
