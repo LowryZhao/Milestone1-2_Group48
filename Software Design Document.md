@@ -50,17 +50,17 @@
 ### 1.1 Problem Background
 
 - Problem Identification: \
-    **With the continuous development of living standards, people's demand for health and nutrition is increasing, but few people go back to consult professional nutrition analysts and 
-  doctors. The development of this software is aimed at helping people search and view specific information about the nutrients contained in various foods more easily and quickly.**
+  **With the continuous development of living standards, people's demand for health and nutrition is increasing, but few people go back to consult professional nutrition analysts and 
+    doctors. The development of this software is aimed at helping people search and view specific information about the nutrients contained in various foods more easily and quickly.**
 - Dataset: \
-    **The dataset used by this software is Nutritional-Food-Database provided by the course, which contains detailed nutritional information of various foods. These data include the names 
-  of various foods, as well as the specific values of the nutrients provided, such as calories, fat, protein, and vitamins.**
+  **The dataset used by this software is Nutritional-Food-Database provided by the course, which contains detailed nutritional information of various foods. These data include the names 
+    of various foods, as well as the specific values of the nutrients provided, such as calories, fat, protein, and vitamins.**
 - Data Input/Output: \
   Input: \
   **Users can enter the name of a food in the search bar, click to select a specific food, or choose a specific range of nutrients.** \
   Output:\
   **By searching for the name of a food, specific data on all nutrients contained in that food will be displayed. By selecting a single food, pie charts and bar charts will be displayed. 
-  By screening the specific range of nutrients, foods that meet the standards will be displayed.**
+    By screening the specific range of nutrients, foods that meet the standards will be displayed.**
 - Target Users: \
   **Nutritionist: Analyze and recommend foods based on different dietary needs. \
     Healthcare professionals: assess and provide recommendations based on health status. \
@@ -70,9 +70,15 @@
 
 - System Functionality: \
   **Search and filtering: Users can search for food names and filter based on specific nutritional standards. \
-  Data analysis and visualization: The system will allow users to analyze the nutritional composition of various foods and visualize this data in a meaningful way. \
-  Customization: Users can set their own unique nutrition plan and share it.**
-- Features and Functionalities: Describe the key features and functionalities of the system.
+    Data analysis and visualization: The system will allow users to analyze the nutritional composition of various foods and visualize this data in a meaningful way. \
+    Customization: Users can set their own unique nutrition plan and share it.**
+- Features and Functionalities: \
+  **Food search: Users can search for food by name and view detailed nutritional information. \
+    Nutritional Analysis: For any selected food, users can view a detailed breakdown of its nutritional components through pie charts and bar charts. \
+    Nutritional Range Filter: Users can filter food by specifying the range of any nutritional indicator. \
+    Nutrient level filter: Users can filter food based on pre-defined key nutrient levels (low, medium, high). \
+    Nutrition plan development and sharing: Users can create different nutrition plans and share them. Professionals can use this feature to assist some confused users and provide them 
+    with a template.**
 
 ### 1.3	Benefit Analysis
 
