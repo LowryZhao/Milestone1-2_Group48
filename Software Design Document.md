@@ -57,7 +57,7 @@
   of various foods, as well as the specific values of the nutrients provided, such as calories, fat, protein, and vitamins.**
 - Data Input/Output: \
   Input: \
-  **Users can enter the name of a food in the search bar, click to select a specific food, or choose a specific range of nutrients.**
+  **Users can enter the name of a food in the search bar, click to select a specific food, or choose a specific range of nutrients.** \
   Output:\
   **By searching for the name of a food, specific data on all nutrients contained in that food will be displayed. By selecting a single food, pie charts and bar charts will be displayed. 
   By screening the specific range of nutrients, foods that meet the standards will be displayed.**
