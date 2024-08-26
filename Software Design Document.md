@@ -49,7 +49,7 @@
 
 ### 1.1 Problem Background
 
-- Problem Identification:\ 
+- Problem Identification: \
     With the continuous development of living standards, people's demand for health and nutrition is increasing, but few people go back to consult professional nutrition analysts and 
   doctors. The development of this software is aimed at helping people search and view specific information about the nutrients contained in various foods more easily and quickly.
 - Dataset: \
