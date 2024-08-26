@@ -69,7 +69,7 @@
 ### 1.2 System capabilities/overview
 
 - System Functionality: \
-  **_Search and filtering: _ Users can search for food names and filter based on specific nutritional standards. \
+  **Search and filtering: Users can search for food names and filter based on specific nutritional standards. \
     Data analysis and visualization: The system will allow users to analyze the nutritional composition of various foods and visualize this data in a meaningful way. \
     Customization: Users can set their own unique nutrition plan and share it.**
 - Features and Functionalities: \
@@ -83,7 +83,9 @@
 ### 1.3	Benefit Analysis
 
 How will this system provide value or benefit?
-
+  **Time saving: It saves users the time they need to collect information on their own, providing convenience not only for ordinary users, but also for professionals and doctors. \
+    Decision making: By providing more accurate and professional data, users can analyze and make better decisions. Users can also refer to plans shared by other users. \
+    Health: By providing professional data to help users improve their health status and reduce the risk of illness.**
 ## 2. Requirements
 
 ### 2.1 User Requirements
