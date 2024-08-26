@@ -68,7 +68,10 @@
 
 ### 1.2 System capabilities/overview
 
-- System Functionality: What will the system do?
+- System Functionality: \
+  **Search and filtering: Users can search for food names and filter based on specific nutritional standards. \
+  Data analysis and visualization: The system will allow users to analyze the nutritional composition of various foods and visualize this data in a meaningful way. \
+  Customization: Users can set their own unique nutrition plan and share it.**
 - Features and Functionalities: Describe the key features and functionalities of the system.
 
 ### 1.3	Benefit Analysis
