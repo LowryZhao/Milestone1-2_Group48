@@ -161,7 +161,6 @@ Present a structural design, a hierarchy chart, showing the overall interface’
 - Navigation: How will users navigate through the software?
 - Design Choices: Explain why these design choices were made.
 
-Example:  
 ![Structural Design](./Structural_Design.png)
 
 ### 4.2	Visual Design
