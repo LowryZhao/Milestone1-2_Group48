@@ -104,20 +104,48 @@ Example Functional Requirements:
 - etc …
 
 ### 2.3 Use Case Diagram
-Provide a system-level Use Case Diagram illustrating all required features.
 
-Example:  
 ![Use Case Diagram](./UCD.png)
 
 ### 2.4 Use Cases
-Include at least 5 use cases, each corresponding to a specific function.
 
+| Use Case ID    | UC-01      |
+|----------------|------------|
+| Use Case Name  |Food Search |
+| Actors         |Target Users|
+| Description    |Users can search for food by name and view detailed nutritional information.|
+| Flow of Events | xxxx |
+| Alternate Flow | xxxx |
 
-| Use Case ID    | xxx  |
-|----------------|------|
-| Use Case Name  | xxxx |
-| Actors         | xxxx |
-| Description    | xxxx |
+| Use Case ID    | UC-02                  |
+|----------------|------------------------|
+| Use Case Name  |Nutritional Range Filter|
+| Actors         |Target Users|
+| Description    |Users can filter food by specifying the range of any nutritional indicator.|
+| Flow of Events | xxxx |
+| Alternate Flow | xxxx |
+
+| Use Case ID    | UC-03               |
+|----------------|---------------------|
+| Use Case Name  |Nutrient Level Filter|
+| Actors         |Target Users|
+| Description    |Users can filter food based on pre-defined key nutrient levels (low, medium, high).|
+| Flow of Events | xxxx |
+| Alternate Flow | xxxx |
+
+| Use Case ID    | UC-04              |
+|----------------|--------------------|
+| Use Case Name  |Nutritional Analysis|
+| Actors         |Target Users|
+| Description    |For any selected food, users can view a detailed breakdown of its nutritional components through pie charts and bar charts.|
+| Flow of Events | xxxx |
+| Alternate Flow | xxxx |
+
+| Use Case ID    | UC-05                              |
+|----------------|------------------------------------|
+| Use Case Name  |Nutrition Plan Development & Sharing|
+| Actors         |Target Users|
+| Description    |Users can create different nutritions plans and share them. Professionals can use this feature to assist some confused users and provide them with a template.|
 | Flow of Events | xxxx |
 | Alternate Flow | xxxx |
 
