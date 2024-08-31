@@ -112,7 +112,7 @@ Example Functional Requirements:
 | Use Case ID    | UC-01      |
 |----------------|------------|
 | Use Case Name  |Food Search |
-| Actors         |Target Users|
+| Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |Users can search for food by name and view detailed nutritional information.|
 | Flow of Events | xxxx |
 | Alternate Flow | xxxx |
@@ -120,7 +120,7 @@ Example Functional Requirements:
 | Use Case ID    | UC-02                  |
 |----------------|------------------------|
 | Use Case Name  |Nutritional Range Filter|
-| Actors         |Target Users|
+| Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |Users can filter food by specifying the range of any nutritional indicator.|
 | Flow of Events | xxxx |
 | Alternate Flow | xxxx |
@@ -128,7 +128,7 @@ Example Functional Requirements:
 | Use Case ID    | UC-03               |
 |----------------|---------------------|
 | Use Case Name  |Nutrient Level Filter|
-| Actors         |Target Users|
+| Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |Users can filter food based on pre-defined key nutrient levels (low, medium, high).|
 | Flow of Events | xxxx |
 | Alternate Flow | xxxx |
@@ -136,7 +136,7 @@ Example Functional Requirements:
 | Use Case ID    | UC-04              |
 |----------------|--------------------|
 | Use Case Name  |Nutritional Analysis|
-| Actors         |Target Users|
+| Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |For any selected food, users can view a detailed breakdown of its nutritional components through pie charts and bar charts.|
 | Flow of Events | xxxx |
 | Alternate Flow | xxxx |
@@ -144,7 +144,7 @@ Example Functional Requirements:
 | Use Case ID    | UC-05                              |
 |----------------|------------------------------------|
 | Use Case Name  |Nutrition Plan Development & Sharing|
-| Actors         |Target Users|
+| Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |Users can create different nutritions plans and share them. Professionals can use this feature to assist some confused users and provide them with a template.|
 | Flow of Events | xxxx |
 | Alternate Flow | xxxx |
