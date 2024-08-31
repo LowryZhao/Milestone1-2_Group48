@@ -53,7 +53,7 @@ There are two types of stakeholders relate to this desktop application. One is i
 
 ### 1.3 Project Scope
 
-During the desktop application project and the final application product, the clear scope will includes three objectives are illustrated in the section 1.1. Also, user acceptance testing is significant process at the end of project. It assist application to identify issues and improve the system functions. Additionally, user guidelines, IT support and feedback channel are essential for this desktop application product to develop the application system for users to conveniently access the functions of analysing and visualising data. On the other hand, this desktop application project and product excludes doing complex task processes, the use of third-party applications and unrelated resources.
+During the desktop application project and the final application product, the clear scope will includes three objectives are illustrated in the section 1.1. Also, user acceptance testing is significant process at the end of project. It assist application to identify issues and improve the system functions. Additionally, user guidelines, IT support and feedback channel are essential for this desktop application product to develop the application system for users to conveniently access the functions of analysing and visualising data. On the other hand, this desktop application project and product excludes doing complex task processes about searching outside database categories or unrelated resources, the high -level output graphs or diagrams and the use of third-party applications.
 
 ## 2. Work Breakdown Structure
 
