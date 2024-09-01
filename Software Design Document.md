@@ -60,7 +60,8 @@
   nutritional information of various foods. These data include the names of various foods, as well as the specific values 
   of the nutrients provided, such as calories, fat, protein, and vitamins.
  
-- Data Input/Output: 
+- Data Input/Output:
+  
   Input:
   Users can enter the name of a food in the search bar, click to select a specific food, or choose a specific range of 
   nutrients.
@@ -130,8 +131,13 @@ Example Functional Requirements:
 | Use Case Name  |Food Search |
 | Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |Users can search for food by name and view detailed nutritional information.|
-| Flow of Events | xxxx |
-| Alternate Flow | xxxx |
+| Flow of Events |- User enter the desktop application. |
+                 |- User navigate to the search icons.  |
+                 |- User enter the name of food they want to search.|
+                 |- System retrieve and display matching results from the database.|
+                 |- User view nutrtional information.|
+| Alternate Flow |- If there are no matching results, system inform the user and provide option for user to refine the search items.|
+                 |- If the system has technical issues during the search process, the system notifies the user to try again later or contact IT support.|
 
 | Use Case ID    | UC-02                  |
 |----------------|------------------------|
