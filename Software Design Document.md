@@ -156,24 +156,39 @@ Example Functional Requirements:
 | Use Case Name  |Nutrient Level Filter|
 | Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |Users can filter food based on pre-defined key nutrient levels (low, medium, high).|
-| Flow of Events | xxxx |
-| Alternate Flow | xxxx |
+| Flow of Events |1.User access the nutrient level filtering icon in the desktop application.|
+|                |2.User select the key nutrient they want to filter.|
+|                |3.User choose the pre-defined level of nutrient.|
+|                |4.The system retrieve and display the list of food items that match for the selected nutrient level from the database.|
+|                |5.User select a specific food item and view the detailed nutritional information.|
+| Alternate Flow |1.If there are no matching selected nutrient level, the system inform the user and provide options for user to refine the nutrient level or choose another nutrient.| 
+|                |2.If the system has technical issues during the nutrient level filter process, the system notify the user to try again later or contact IT support.|
 
 | Use Case ID    | UC-04              |
 |----------------|--------------------|
 | Use Case Name  |Nutritional Analysis|
 | Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |For any selected food, users can view a detailed breakdown of its nutritional components through pie charts and bar charts.|
-| Flow of Events | xxxx |
-| Alternate Flow | xxxx |
+| Flow of Events |1.User select a food item from the search results or range/level filter outputs.|
+|                |2.User naviagate to the detailed nutritional analysis icon in the desktop application.|
+|                |3.The system retrieve nutritional data for selected food items from the database.|
+|                |4.The system generate and display the visual nutritional analysis outcomes (such as pie charts or bar charts) to present the detailed nutritional information for user.|
+|                |5.User view the detailed nutritional information and explore additional details.|
+| Alternate Flow |1.If there are no matching detailed nutritional data for selected food items, the system inform the user and provide options for user to refine the filter details or choose another food item.| 
+|                |2.If the system has technical issues during the retrieve data or display visualisation process, the system notify the user to try again later or contact IT support.|
 
 | Use Case ID    | UC-05                              |
 |----------------|------------------------------------|
 | Use Case Name  |Nutrition Plan Development & Sharing|
 | Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |Users can create different nutritions plans and share them. Professionals can use this feature to assist some confused users and provide them with a template.|
-| Flow of Events | xxxx |
-| Alternate Flow | xxxx |
+| Flow of Events |1.User access the nutrition plan creation icon to start a new nutrition plan in the desktop application.|
+|                |2.User specify the details information about their nutrition plans or goals|
+|                |3.User add the food items for their daily meal plan, includes the portion sizes or quantities details.|
+|                |4.User save the completed nutrition plan.|
+|                |5.User has options to share the nutrition plan with others through email, social media or direct link.|
+| Alternate Flow |1.If user want to modify or copy the existing nutrition plan, they have permission to access, edit and share it with multiple times.| 
+|                |2.If the system has technical issues during the plan creation or sharing nutrition plan process, the system notify the user to try again later or contact IT support.|
 
 
 
