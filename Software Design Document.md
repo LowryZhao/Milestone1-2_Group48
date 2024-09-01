@@ -131,16 +131,25 @@ Example Functional Requirements:
 | Use Case Name  |Food Search |
 | Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |Users can search for food by name and view detailed nutritional information.|
-| Flow of Events |- User enter the desktop application. - User navigate to the search icon. - User enter the name of food they want to search. - System retrieve and display matching results from the database. - User view nutrtional information.|
-| Alternate Flow |- If there are no matching results, system inform the user and provide option for user to refine the search items. - If the system has technical issues during the search process, the system notifies the user to try again later or contact IT support.|
+| Flow of Events |1.User enter the desktop application.|
+|                |2.User navigate to the search icon.|
+|                |3.User enter the name of food they want to search.|
+|                |4.System retrieve and display matching results from the database.|
+|                |5.User view nutrtional information.|
+| Alternate Flow |1.If there are no matching results, system inform the user and provide option for user to refine the search items.| 
+|                |2.If the system has technical issues during the search process, the system notifies the user to try again later or contact IT support.|
 
 | Use Case ID    | UC-02                  |
 |----------------|------------------------|
 | Use Case Name  |Nutritional Range Filter|
 | Actors         |Target Users(Nutritionist, Healthcare Professionals, The General Public)|
 | Description    |Users can filter food by specifying the range of any nutritional indicator.|
-| Flow of Events |- User access the range filtering icon in the desktop application. - User select the range of nutritional indicator. - The system retrieve and display the list of food items from the database. User select a specifc food item and view the detailed nutritional information.|
-| Alternate Flow |- If there are no matching nutritional range, the system inform the user and provide options for user to refine the range or choose different nutritional indicator. - If the system has technical issues during the range filter process, the system notify the user to try again later or contact IT support.|
+| Flow of Events |1.User access the range filtering icon in the desktop application.|
+|                |2.User select the range of nutritional indicator.|
+|                |3.The system retrieve and display the list of food items from the database.|
+|                |4.User select a specifc food item and view the detailed nutritional information.|
+| Alternate Flow |1.If there are no matching nutritional range, the system inform the user and provide options for user to refine the range or choose different nutritional indicator.| 
+|                |2.If the system has technical issues during the range filter process, the system notify the user to try again later or contact IT support.|
 
 | Use Case ID    | UC-03               |
 |----------------|---------------------|
