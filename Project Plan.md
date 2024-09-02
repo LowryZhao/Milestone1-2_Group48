@@ -49,11 +49,11 @@ For this Desktop application project, it aims to design and provide a useful too
 
 ### 1.2 Project Stakeholders
 
-There are two types of stakeholders relate to this desktop application. One is in the internal teams, which consist of software engieers, UI/UX designers, application testers, data analysts and project management members. Another is potential users, it primarily contains business decision makers and individuals.
+There are two types of stakeholders relate to this desktop application. One is in the potentially internal teams, which consist of software engieers, UI/UX designers, application testers, data analysts and project management members. Another is identified users about this project, it primarily contains nutrionist, healthcare professionals, the general public and individuals.
 
 ### 1.3 Project Scope
 
-During the desktop application project and the final application product, the clear scope will includes three objectives are illustrated in the section 1.1. Also, user acceptance testing is significant process at the end of project. It assist application to identify issues and improve the system functions. Additionally, user guidelines, IT support and feedback channel are essential for this desktop application product to develop the application system for users to conveniently access the functions of analysing and visualising data. On the other hand, this desktop application project and product excludes doing complex task processes about searching outside database categories or unrelated resources, the high -level output graphs or diagrams and the use of third-party applications.
+During the desktop application project and the final application product, the clear scope will includes three objectives are illustrated in the section 1.1. Also, user acceptance testing is significant process at the end of project. It assist application to identify issues and improve the system functions. Additionally, user guidelines, IT support and feedback channel are essential for this desktop application product to develop the application system for users to conveniently access the functions of analysing and visualising data. On the other hand, this desktop application project and product excludes doing complex task processes about searching or filtering outside database categories or unrelated resources, the high -level output graphs or diagrams and the use of third-party applications.
 
 ## 2. Work Breakdown Structure
 
