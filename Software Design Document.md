@@ -195,10 +195,8 @@ Example Functional Requirements:
 ## 3.	Software Design and System Components 
 
 ### 3.1	Software Design
-Include a flowchart that illustrates how your software will operate.
 
-Example:  
-![Software Design](./software_design_flowchart.png)
+![Software Design](./Software_design_flowchart.png)
 
 ### 3.2	System Components
 
