@@ -294,12 +294,245 @@ List all key functions within the software. For each function, provide:
 - Return Value: Describe what the function returns.
 - Side Effects: Note any side effects, such as changes to global variables or data passed by reference.
 
+
+# 3.2.1 Functions
+
+Below is a list of key functions within the Nutritional Analysis System. Each function is described with its purpose, input parameters, return value, and any side effects.
+
+## Function Name: searchFoodItems
+
+- **Description**: Searches for food items in the Comprehensive Nutritional Food Database based on user-specified criteria.
+- **Input Parameters**:
+  - `searchTerm` (string): The search term entered by the user
+  - `searchType` (enum): Type of search (e.g., by name, category, or nutritional content)
+  - `filters` (object): Advanced filtering criteria (e.g., macronutrients, micronutrients, allergens)
+- **Return Value**: Array of FoodItem objects matching the search criteria
+- **Side Effects**: None
+
+## Function Name: displayNutritionalInfo
+
+- **Description**: Displays comprehensive nutritional information for a specific food item.
+- **Input Parameters**:
+  - `foodItem` (FoodItem): The food item object
+  - `unit` (enum): The unit of measurement (e.g., grams, ounces, cups)
+  - `servingSize` (float): The serving size specified by the user
+- **Return Value**: NutritionalInfo object containing adjusted nutritional data
+- **Side Effects**: None
+
+## Function Name: createMealPlan
+
+- **Description**: Creates a new meal plan for a user or client.
+- **Input Parameters**:
+  - `userId` (int): ID of the user creating the meal plan
+  - `clientId` (int, optional): ID of the client for whom the meal plan is created
+  - `planName` (string): Name of the meal plan
+  - `nutritionalGoals` (object, optional): Nutritional goals for the meal plan
+- **Return Value**: MealPlan object representing the created meal plan
+- **Side Effects**: Stores the new meal plan in the database
+
+## Function Name: addFoodToMealPlan
+
+- **Description**: Adds a food item to a specified meal plan and recalculates nutritional totals.
+- **Input Parameters**:
+  - `mealPlanId` (int): ID of the meal plan
+  - `foodItemId` (int): ID of the food item to add
+  - `quantity` (float): Quantity of the food item
+  - `unit` (enum): Unit of measurement for the quantity
+- **Return Value**: Updated MealPlan object
+- **Side Effects**: Updates the meal plan in the database, may trigger alerts if nutritional goals are exceeded or not met
+
+## Function Name: generateNutritionalAnalysis
+
+- **Description**: Generates a nutritional analysis report for a specified time period or meal plan.
+- **Input Parameters**:
+  - `analysisType` (enum): Type of analysis (e.g., meal, daily intake, custom period)
+  - `mealPlanId` (int, optional): ID of the meal plan to analyze
+  - `startDate` (Date, optional): Start date for custom period analysis
+  - `endDate` (Date, optional): End date for custom period analysis
+- **Return Value**: NutritionalAnalysis object containing detailed nutritional breakdown
+- **Side Effects**: None
+
+## Function Name: manageCLientProfile
+
+- **Description**: Creates or updates a client profile with personal information and dietary details.
+- **Input Parameters**:
+  - `clientId` (int, optional): ID of the existing client (if updating)
+  - `personalInfo` (object): Personal information of the client
+  - `dietaryRestrictions` (array): List of dietary restrictions
+  - `healthGoals` (object): Health and nutritional goals of the client
+- **Return Value**: ClientProfile object representing the created or updated profile
+- **Side Effects**: Creates or updates client information in the database
+
+## Function Name: compareFoodItems
+
+- **Description**: Compares nutritional values of different food items side-by-side.
+- **Input Parameters**:
+  - `foodItemIds` (array of int): IDs of food items to compare
+  - `comparisonCriteria` (array of string): Nutritional aspects to compare
+- **Return Value**: ComparisonResult object containing side-by-side nutritional data
+- **Side Effects**: None
+
+## Function Name: findAlternativeFoods
+
+- **Description**: Finds alternative food items with similar nutritional profiles.
+- **Input Parameters**:
+  - `foodItemId` (int): ID of the reference food item
+  - `toleranceLevel` (float): Acceptable difference in nutritional values (percentage)
+- **Return Value**: Array of FoodItem objects representing alternatives
+- **Side Effects**: None
+
+## Function Name: exportData
+
+- **Description**: Exports nutritional data, meal plans, or analyses in specified format.
+- **Input Parameters**:
+  - `dataType` (enum): Type of data to export (e.g., nutritional data, meal plan, analysis)
+  - `id` (int): ID of the specific item to export
+  - `format` (enum): Export format (PDF or CSV)
+- **Return Value**: File object containing the exported data
+- **Side Effects**: Creates a file in the user's specified location
+
+## Function Name: generateClientReport
+
+- **Description**: Generates a professional-looking report for a client, summarizing meal plans and nutritional insights.
+- **Input Parameters**:
+  - `clientId` (int): ID of the client
+  - `reportPeriod` (object): Start and end dates for the report period
+  - `includedData` (array of enum): Types of data to include in the report
+- **Return Value**: Report object containing formatted report data
+- **Side Effects**: None
+
 #### 3.2.2 Data Structures / Data Sources
 List all data structures or sources used in the software. For each, provide:
 
 - Type: Type of data structure (e.g., list, set, dictionary).
 - Usage: Describe where and how it is used.
 - Functions: List functions that utilize this structure.
+
+# Data Structures and Sources
+
+This document outlines the key data structures and sources used in the Nutritional Analysis System, including their types, usage, and associated functions.
+
+## 1. Comprehensive Nutritional Food Database
+
+- **Type**: External Database (likely relational)
+- **Usage**: Stores all food items with their nutritional information. This is the primary data source for the entire system.
+- **Functions**:
+  - `searchFoodItems`
+  - `displayNutritionalInfo`
+  - `findAlternativeFoods`
+
+## 2. FoodItem
+
+- **Type**: Class/Object
+- **Usage**: Represents individual food items with their nutritional properties.
+- **Functions**:
+  - `displayNutritionalInfo`
+  - `addFoodToMealPlan`
+  - `compareFoodItems`
+
+## 3. NutritionalInfo
+
+- **Type**: Class/Object
+- **Usage**: Contains detailed nutritional information for food items or meal plans.
+- **Functions**:
+  - `displayNutritionalInfo`
+  - `generateNutritionalAnalysis`
+
+## 4. MealPlan
+
+- **Type**: Class/Object with embedded list of FoodItems
+- **Usage**: Represents a meal plan created by a user, including associated food items and nutritional goals.
+- **Functions**:
+  - `createMealPlan`
+  - `addFoodToMealPlan`
+  - `generateNutritionalAnalysis`
+
+## 5. ClientProfile
+
+- **Type**: Class/Object
+- **Usage**: Stores information about individual clients, including personal details, dietary restrictions, and health goals.
+- **Functions**:
+  - `manageClientProfile`
+  - `createMealPlan`
+  - `generateClientReport`
+
+## 6. NutritionalGoals
+
+- **Type**: Dictionary/Object
+- **Usage**: Defines nutritional targets for meal plans or clients.
+- **Functions**:
+  - `createMealPlan`
+  - `addFoodToMealPlan` (for checking against goals)
+  - `generateNutritionalAnalysis`
+
+## 7. ComparisonResult
+
+- **Type**: Custom Object/Dictionary
+- **Usage**: Stores the result of comparing multiple food items.
+- **Functions**:
+  - `compareFoodItems`
+
+## 8. NutritionalAnalysis
+
+- **Type**: Class/Object
+- **Usage**: Represents the result of a nutritional analysis, including breakdowns and insights.
+- **Functions**:
+  - `generateNutritionalAnalysis`
+  - `exportData`
+  - `generateClientReport`
+
+## 9. UserPreferences
+
+- **Type**: Dictionary/Object
+- **Usage**: Stores user-specific settings such as preferred units of measurement and display preferences.
+- **Functions**:
+  - `displayNutritionalInfo`
+  - `exportData`
+
+## 10. ExportFormat
+
+- **Type**: Enum
+- **Usage**: Defines available export formats (e.g., PDF, CSV).
+- **Functions**:
+  - `exportData`
+
+## 11. SearchFilters
+
+- **Type**: Dictionary/Object
+- **Usage**: Stores advanced search and filtering criteria for food items.
+- **Functions**:
+  - `searchFoodItems`
+
+## 12. Report
+
+- **Type**: Class/Object
+- **Usage**: Represents a formatted report containing meal plans, nutritional analyses, and insights for clients.
+- **Functions**:
+  - `generateClientReport`
+  - `exportData`
+
+## 13. AlternativeFoodsList
+
+- **Type**: List of FoodItem objects
+- **Usage**: Stores food items with similar nutritional profiles to a reference item.
+- **Functions**:
+  - `findAlternativeFoods`
+
+## 14. NutrientUnit
+
+- **Type**: Enum
+- **Usage**: Defines units of measurement for nutritional information (e.g., grams, ounces, cups).
+- **Functions**:
+  - `displayNutritionalInfo`
+  - `addFoodToMealPlan`
+
+## 15. AlertSystem
+
+- **Type**: Class/Object
+- **Usage**: Manages and triggers alerts when meal plans exceed or fall short of nutritional goals.
+- **Functions**:
+  - `addFoodToMealPlan`
+  - `generateNutritionalAnalysis`
 
 #### 3.2.3 Detailed Design
 Provide pseudocode or flowcharts for all functions listed in Section 3.2.1 that operate on data structures. For instance, include pseudocode or a flowchart for a custom searching function.
