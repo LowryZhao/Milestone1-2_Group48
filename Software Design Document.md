@@ -111,6 +111,46 @@ Detail how users are expected to interact with or use the program. What function
 
 Note: Since no specific client or user is assigned, you may create a fictional user. Who do you envision using your software?
 
+Fictional User: Sarah, Nutritionist
+
+Sarah is a 32-year-old nutritionist who runs her own practice. She works with a diverse clientele, including athletes, individuals with specific dietary restrictions, and people looking to improve their overall health through nutrition. Sarah needs a robust software system that can leverage the Comprehensive Nutritional Food Database to help her create personalized meal plans, analyze nutritional intake, and provide evidence-based recommendations to her clients.
+
+User needs:
+
+1.	Food Search and Filtering:
+
+   - Users should be able to search for specific food items by name, category, or nutritional content.
+   - The system must provide advanced filtering options (e.g., by macronutrients, micronutrients, allergens).
+
+2.	Nutritional Information Display:
+   - For each food item, the system should display comprehensive nutritional information as provided in the database.
+   - Users should be able to view nutritional data in various units (e.g., grams, ounces, cups) and adjust serving sizes dynamically.
+
+3.	Meal Planning:
+   - Users should be able to create and save meal plans for their clients.
+   - The system must allow users to add food items to meal plans and automatically calculate total nutritional values.
+   - Users should be able to set nutritional goals and receive alerts if a meal plan exceeds or falls short of these goals.
+
+4.	Nutritional Analysis:
+   - The system should provide tools for analyzing the nutritional content of meals, daily intake, or custom time periods.
+   - Users should be able to generate reports showing nutritional breakdowns, including macronutrient ratios and micronutrient levels.
+
+5.	Client Management:
+   - Users should be able to create and manage client profiles, including personal information, dietary restrictions, and health goals.
+   - The system must allow users to associate meal plans and nutritional analyses with specific clients.
+
+6.	Comparison Tools:
+   - Users should be able to compare nutritional values of different food items side-by-side.
+   - The system should provide functionality to find alternative food items with similar nutritional profiles.
+
+7.	Data Export and Reporting:
+   - Users should be able to export nutritional data, meal plans, and analyses in various formats (e.g., PDF, CSV).
+   - The system must generate professional-looking reports for clients, summarizing meal plans and nutritional insights.
+
+
+
+
+
 ### 2.2	Software Requirements
 Define the functionality the software will provide. This section should list requirements formally, often using the word "shall" to describe functionalities.
 
@@ -119,6 +159,53 @@ Example Functional Requirements:
 - R1.2 Each file name can be a simple file name or include the full path of the file with one or more levels.  
 
 - etc …
+
+
+
+
+Software Requirements: 
+1.	Data Management and Access
+
+ R1.1 The system shall provide access to the Comprehensive Nutritional Food Database.
+ R1.2 The system shall allow users to search for food items by name, category, or nutritional content. 
+ R1.3 The system shall support advanced filtering of food items based on nutritional criteria.
+
+2.	Nutritional Information Display
+
+R2.1 The system shall display comprehensive nutritional information for each food item. 
+R2.2 The system shall allow users to view nutritional data in various units (e.g., grams, ounces, cups). 
+R2.3 The system shall dynamically adjust nutritional information based on user-specified serving sizes.
+
+
+3.	Meal Planning 
+
+R3.1 The system shall enable users to create and save meal plans. 
+R3.2 The system shall allow users to add food items to meal plans. 
+R3.3 The system shall automatically calculate and display total nutritional values for meal plans. 
+R3.4 The system shall allow users to set nutritional goals for meal plans. 
+R3.5 The system shall alert users when a meal plan exceeds or falls short of set nutritional goals.
+
+
+4.	Nutritional Analysis 
+
+R4.1 The system shall provide tools for analyzing nutritional content of meals, daily intake, or custom time periods.
+R4.2 The system shall generate reports showing nutritional breakdowns, including macronutrient ratios and micronutrient levels.
+
+5.	Client Management 
+
+R5.1 The system shall allow users to create and manage client profiles.
+R5.2 The system shall enable users to associate meal plans and nutritional analyses with specific clients.
+
+6.	Comparison Tools 
+
+R6.1 The system shall allow users to compare nutritional values of different food items side-by-side. 
+R6.2 The system shall provide functionality to find alternative food items with similar nutritional profiles.
+
+
+7.	Data Export and Reporting 
+
+R7.1 The system shall allow users to export nutritional data, meal plans, and analyses in PDF and CSV formats.
+R7.2 The system shall generate professional-looking reports summarizing meal plans and nutritional insights.
 
 ### 2.3 Use Case Diagram
 

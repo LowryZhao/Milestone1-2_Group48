@@ -18,9 +18,9 @@ Please Describe what you have accomplished in this group project.
   - Accomplishments: I completed the gantt chart, WBS, and Use Case Diagram. Also, a main part of project plan.
 - s5226106, Lowry Zhao
   - Accomplishments: Describe what you have completed or achieved
-- s333333, Jiaxin Lin
-  - Accomplishments: Describe what you have completed or achieved
-
+- s5261308, Jiaxin Lin
+  - Accomplishments:  I completed the User Requirements, Sofyware Requirements, Use Case Diagram and Use Cases.
+ 
 <div style="page-break-after: always;"></div>
 
 
