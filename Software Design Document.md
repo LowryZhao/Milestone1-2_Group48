@@ -507,7 +507,8 @@ functions.
   - `generateNutritionalAnalysis`
 
 #### 3.2.3 Detailed Design
-Provide pseudocode or flowcharts for all functions listed in Section 3.2.1 that operate on data structures. For instance, include pseudocode or a flowchart for a custom searching function.
+
+![Detailed Design](./Detailed_design.png)
 
 
 ## 4. User Interface Design
