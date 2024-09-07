@@ -541,8 +541,16 @@ Include all wireframes or mock-ups of the interface. Provide a discussion, expla
 - Screens/Menus: Provide wireframes for different screens, menus, and options.
 - Design Details: Focus on the layout and size of components; color and graphics are not required. 
 
-Example:  
-![Visual Design](./visual_design.png)
+![Visual Design](./visual_design_1.png)
+![Visual Design](./visual_design_2.png)
+![Visual Design](./visual_design_3.png)
+![Visual Design](./visual_design_4.png)
+![Visual Design](./visual_design_5.png)
+![Visual Design](./visual_design_6.png)
+![Visual Design](./visual_design_7.png)
+![Visual Design](./visual_design_8.png)
+![Visual Design](./visual_design_9.png)
+![Visual Design](./visual_design_10.png)
 
 
 
