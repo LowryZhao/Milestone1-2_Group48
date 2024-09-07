@@ -525,9 +525,9 @@ functions.
 - **Nutrition Plan**: Users can create and share plan.
 
 **3. Navigation:**
-- **Main Page**:
-- **Subpage**:
-- **Return Navigation**:
+- **Main Page**: The page that the user will enter when opening the software leads to all functional pages.
+- **Subpage**: Each different function will have a different page, and users can choose according to the function they want to use, and each page can return to the main page.
+- **Return Navigation**: Users can use the "Return" button to choose to return to the previous page, and use the "Return to Home" button to return to the main page.
 
 **4. Design Choices:**
 - Using a hierarchical structure can ensure that users can easily find the functions they need, and putting related functions together can help users better use the software.
