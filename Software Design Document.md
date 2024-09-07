@@ -530,7 +530,7 @@ The software will use a hierarchical structure, with specific examples provided 
 - **Return Navigation**:
 
 **4. Design Choices:**\ 
-
+1
 
 ![Structural Design](./Structural_Design.png)
 
