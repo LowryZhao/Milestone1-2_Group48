@@ -518,7 +518,11 @@ functions.
 The software will use a hierarchical structure, with specific examples provided in the charts. The interface will start with the main function interface, which will be divided into several key parts and possess all the core functions.
 
 **2. Information Grouping:**
-
+- **Main**: The starting point for users to open applications and access all functions.
+- **Food Search**: Allow users to search and display specific data.
+- **Nutrition Breakdown**: Convert the nutritional content of the selected food into pie charts and bar charts.
+- **Nutrition Filter**: Users can not only screen and filter based on the range of nutritional value, but also classify food into low, medium, and high nutritional levels.
+- **Nutrition Plan**: Users can create and share plan.
 
 ![Structural Design](./Structural_Design.png)
 
