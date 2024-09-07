@@ -107,7 +107,7 @@
 
 ### 2.1 User Requirements
 
-- Fictional User: Sarah, Nutritionist**
+- Fictional User: Sarah, Nutritionist
 
   Sarah is a 32-year-old nutritionist who runs her own practice. She works with a diverse clientele, including athletes, individuals with specific 
   dietary restrictions, and people looking to improve their overall health through nutrition. Sarah needs a robust software system that can    
