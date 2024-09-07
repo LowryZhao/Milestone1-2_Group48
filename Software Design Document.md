@@ -514,8 +514,8 @@ functions.
 ## 4. User Interface Design
 
 ### 4.1 Structural Design
-**1. Structure:**\
-The software will use a hierarchical structure, with specific examples provided in the charts. The interface will start with the main function interface, which will be divided into several key parts and possess all the core functions.
+**1. Structure:**
+- The software will use a hierarchical structure, with specific examples provided in the charts. The interface will start with the main function interface, which will be divided into several key parts and possess all the core functions.
 
 **2. Information Grouping:**
 - **Main**: The starting point for users to open applications and access all functions.
@@ -529,8 +529,8 @@ The software will use a hierarchical structure, with specific examples provided 
 - **Subpage**:
 - **Return Navigation**:
 
-**4. Design Choices:** \ 
-1
+**4. Design Choices:**
+- 
 
 ![Structural Design](./Structural_Design.png)
 
