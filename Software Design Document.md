@@ -329,7 +329,7 @@ value, and any side effects.
 - **Return Value**: NutritionalAnalysis object containing detailed nutritional breakdown
 - **Side Effects**: None
 
-**6. Function Name: manageCLientProfile**
+**6. Function Name: manageClientProfile**
 
 - **Description**: Creates or updates a client profile with personal information and dietary details.
 - **Input Parameters**:
