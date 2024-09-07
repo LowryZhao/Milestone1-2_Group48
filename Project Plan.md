@@ -18,7 +18,7 @@ Please Describe what you have accomplished in this group project.
   - Accomplishments: I completed the gantt chart, WBS, Use Case Diagramm and descriptions, software design, detailed design and visual design. 
     Also, a main part of project plan.
 - s5226106, Lowry Zhao
-  - Accomplishments: Describe what you have completed or achieved
+  - Accomplishments: I completed the Problem background, System capabilities/overview, Benefit Analysis, Structural Design, Submission and organization of all documents.
 - s5261308, Jiaxin Lin
   - Accomplishments:  I completed the User Requirements, Software Requirements, list key functions and data structures.
  
