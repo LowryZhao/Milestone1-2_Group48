@@ -107,15 +107,14 @@
 
 ### 2.1 User Requirements
 
-Detail how users are expected to interact with or use the program. What functionalities must the system provide from the end-user perspective? This can include both narrative descriptions and a listing of user needs.
+- Fictional User: Sarah, Nutritionist**
 
-Note: Since no specific client or user is assigned, you may create a fictional user. Who do you envision using your software?
+  Sarah is a 32-year-old nutritionist who runs her own practice. She works with a diverse clientele, including athletes, individuals with specific 
+  dietary restrictions, and people looking to improve their overall health through nutrition. Sarah needs a robust software system that can    
+  leverage the Comprehensive Nutritional Food Database to help her create personalized meal plans, analyze nutritional intake, and provide 
+  evidence-based recommendations to her clients.
 
-Fictional User: Sarah, Nutritionist
-
-Sarah is a 32-year-old nutritionist who runs her own practice. She works with a diverse clientele, including athletes, individuals with specific dietary restrictions, and people looking to improve their overall health through nutrition. Sarah needs a robust software system that can leverage the Comprehensive Nutritional Food Database to help her create personalized meal plans, analyze nutritional intake, and provide evidence-based recommendations to her clients.
-
-User needs:
+- User needs:
 
 1.	Food Search and Filtering:
 
@@ -148,34 +147,19 @@ User needs:
    - The system must generate professional-looking reports for clients, summarizing meal plans and nutritional insights.
 
 
-
-
-
 ### 2.2	Software Requirements
-Define the functionality the software will provide. This section should list requirements formally, often using the word "shall" to describe functionalities.
 
-Example Functional Requirements:  
-- R1.1 The program shall accept multiple file names as arguments from the command line.  
-- R1.2 Each file name can be a simple file name or include the full path of the file with one or more levels.  
-
-- etc …
-
-
-
-
-Software Requirements: 
 1.	Data Management and Access
 
- R1.1 The system shall provide access to the Comprehensive Nutritional Food Database.
- R1.2 The system shall allow users to search for food items by name, category, or nutritional content. 
- R1.3 The system shall support advanced filtering of food items based on nutritional criteria.
+R1.1 The system shall provide access to the Comprehensive Nutritional Food Database.
+R1.2 The system shall allow users to search for food items by name, category, or nutritional content. 
+R1.3 The system shall support advanced filtering of food items based on nutritional criteria.
 
 2.	Nutritional Information Display
 
 R2.1 The system shall display comprehensive nutritional information for each food item. 
 R2.2 The system shall allow users to view nutritional data in various units (e.g., grams, ounces, cups). 
 R2.3 The system shall dynamically adjust nutritional information based on user-specified serving sizes.
-
 
 3.	Meal Planning 
 
@@ -184,7 +168,6 @@ R3.2 The system shall allow users to add food items to meal plans.
 R3.3 The system shall automatically calculate and display total nutritional values for meal plans. 
 R3.4 The system shall allow users to set nutritional goals for meal plans. 
 R3.5 The system shall alert users when a meal plan exceeds or falls short of set nutritional goals.
-
 
 4.	Nutritional Analysis 
 
@@ -206,6 +189,7 @@ R6.2 The system shall provide functionality to find alternative food items with 
 
 R7.1 The system shall allow users to export nutritional data, meal plans, and analyses in PDF and CSV formats.
 R7.2 The system shall generate professional-looking reports summarizing meal plans and nutritional insights.
+
 
 ### 2.3 Use Case Diagram
 
@@ -288,18 +272,11 @@ R7.2 The system shall generate professional-looking reports summarizing meal pla
 ### 3.2	System Components
 
 #### 3.2.1 Functions
-List all key functions within the software. For each function, provide:
-- Description: Brief explanation of the function’s purpose.
-- Input Parameters: List parameters, their data types, and their use.
-- Return Value: Describe what the function returns.
-- Side Effects: Note any side effects, such as changes to global variables or data passed by reference.
 
+Below is a list of key functions within the Nutritional Analysis System. Each function is described with its purpose, input parameters, return
+value, and any side effects.
 
-# 3.2.1 Functions
-
-Below is a list of key functions within the Nutritional Analysis System. Each function is described with its purpose, input parameters, return value, and any side effects.
-
-## Function Name: searchFoodItems
+**1. Function Name: searchFoodItems**
 
 - **Description**: Searches for food items in the Comprehensive Nutritional Food Database based on user-specified criteria.
 - **Input Parameters**:
@@ -309,7 +286,7 @@ Below is a list of key functions within the Nutritional Analysis System. Each fu
 - **Return Value**: Array of FoodItem objects matching the search criteria
 - **Side Effects**: None
 
-## Function Name: displayNutritionalInfo
+**2. Function Name: displayNutritionalInfo**
 
 - **Description**: Displays comprehensive nutritional information for a specific food item.
 - **Input Parameters**:
@@ -319,7 +296,7 @@ Below is a list of key functions within the Nutritional Analysis System. Each fu
 - **Return Value**: NutritionalInfo object containing adjusted nutritional data
 - **Side Effects**: None
 
-## Function Name: createMealPlan
+**3. Function Name: createMealPlan**
 
 - **Description**: Creates a new meal plan for a user or client.
 - **Input Parameters**:
@@ -330,7 +307,7 @@ Below is a list of key functions within the Nutritional Analysis System. Each fu
 - **Return Value**: MealPlan object representing the created meal plan
 - **Side Effects**: Stores the new meal plan in the database
 
-## Function Name: addFoodToMealPlan
+**4. Function Name: addFoodToMealPlan**
 
 - **Description**: Adds a food item to a specified meal plan and recalculates nutritional totals.
 - **Input Parameters**:
@@ -341,7 +318,7 @@ Below is a list of key functions within the Nutritional Analysis System. Each fu
 - **Return Value**: Updated MealPlan object
 - **Side Effects**: Updates the meal plan in the database, may trigger alerts if nutritional goals are exceeded or not met
 
-## Function Name: generateNutritionalAnalysis
+**5. Function Name: generateNutritionalAnalysis**
 
 - **Description**: Generates a nutritional analysis report for a specified time period or meal plan.
 - **Input Parameters**:
@@ -352,7 +329,7 @@ Below is a list of key functions within the Nutritional Analysis System. Each fu
 - **Return Value**: NutritionalAnalysis object containing detailed nutritional breakdown
 - **Side Effects**: None
 
-## Function Name: manageCLientProfile
+**6. Function Name: manageCLientProfile**
 
 - **Description**: Creates or updates a client profile with personal information and dietary details.
 - **Input Parameters**:
@@ -363,7 +340,7 @@ Below is a list of key functions within the Nutritional Analysis System. Each fu
 - **Return Value**: ClientProfile object representing the created or updated profile
 - **Side Effects**: Creates or updates client information in the database
 
-## Function Name: compareFoodItems
+**7. Function Name: compareFoodItems**
 
 - **Description**: Compares nutritional values of different food items side-by-side.
 - **Input Parameters**:
@@ -372,7 +349,7 @@ Below is a list of key functions within the Nutritional Analysis System. Each fu
 - **Return Value**: ComparisonResult object containing side-by-side nutritional data
 - **Side Effects**: None
 
-## Function Name: findAlternativeFoods
+**8. Function Name: findAlternativeFoods**
 
 - **Description**: Finds alternative food items with similar nutritional profiles.
 - **Input Parameters**:
@@ -381,7 +358,7 @@ Below is a list of key functions within the Nutritional Analysis System. Each fu
 - **Return Value**: Array of FoodItem objects representing alternatives
 - **Side Effects**: None
 
-## Function Name: exportData
+**9. Function Name: exportData**
 
 - **Description**: Exports nutritional data, meal plans, or analyses in specified format.
 - **Input Parameters**:
@@ -391,7 +368,7 @@ Below is a list of key functions within the Nutritional Analysis System. Each fu
 - **Return Value**: File object containing the exported data
 - **Side Effects**: Creates a file in the user's specified location
 
-## Function Name: generateClientReport
+**10. Function Name: generateClientReport**
 
 - **Description**: Generates a professional-looking report for a client, summarizing meal plans and nutritional insights.
 - **Input Parameters**:
@@ -401,18 +378,13 @@ Below is a list of key functions within the Nutritional Analysis System. Each fu
 - **Return Value**: Report object containing formatted report data
 - **Side Effects**: None
 
+
 #### 3.2.2 Data Structures / Data Sources
-List all data structures or sources used in the software. For each, provide:
 
-- Type: Type of data structure (e.g., list, set, dictionary).
-- Usage: Describe where and how it is used.
-- Functions: List functions that utilize this structure.
+This document outlines the key data structures and sources used in the Nutritional Analysis System, including their types, usage, and associated 
+functions.
 
-# Data Structures and Sources
-
-This document outlines the key data structures and sources used in the Nutritional Analysis System, including their types, usage, and associated functions.
-
-## 1. Comprehensive Nutritional Food Database
+**1. Comprehensive Nutritional Food Database**
 
 - **Type**: External Database (likely relational)
 - **Usage**: Stores all food items with their nutritional information. This is the primary data source for the entire system.
@@ -421,7 +393,7 @@ This document outlines the key data structures and sources used in the Nutrition
   - `displayNutritionalInfo`
   - `findAlternativeFoods`
 
-## 2. FoodItem
+**2. FoodItem**
 
 - **Type**: Class/Object
 - **Usage**: Represents individual food items with their nutritional properties.
@@ -430,7 +402,7 @@ This document outlines the key data structures and sources used in the Nutrition
   - `addFoodToMealPlan`
   - `compareFoodItems`
 
-## 3. NutritionalInfo
+**3. NutritionalInfo**
 
 - **Type**: Class/Object
 - **Usage**: Contains detailed nutritional information for food items or meal plans.
@@ -438,7 +410,7 @@ This document outlines the key data structures and sources used in the Nutrition
   - `displayNutritionalInfo`
   - `generateNutritionalAnalysis`
 
-## 4. MealPlan
+**4. MealPlan**
 
 - **Type**: Class/Object with embedded list of FoodItems
 - **Usage**: Represents a meal plan created by a user, including associated food items and nutritional goals.
@@ -447,7 +419,7 @@ This document outlines the key data structures and sources used in the Nutrition
   - `addFoodToMealPlan`
   - `generateNutritionalAnalysis`
 
-## 5. ClientProfile
+**5. ClientProfile**
 
 - **Type**: Class/Object
 - **Usage**: Stores information about individual clients, including personal details, dietary restrictions, and health goals.
@@ -456,7 +428,7 @@ This document outlines the key data structures and sources used in the Nutrition
   - `createMealPlan`
   - `generateClientReport`
 
-## 6. NutritionalGoals
+**6. NutritionalGoals**
 
 - **Type**: Dictionary/Object
 - **Usage**: Defines nutritional targets for meal plans or clients.
@@ -465,14 +437,14 @@ This document outlines the key data structures and sources used in the Nutrition
   - `addFoodToMealPlan` (for checking against goals)
   - `generateNutritionalAnalysis`
 
-## 7. ComparisonResult
+**7. ComparisonResult**
 
 - **Type**: Custom Object/Dictionary
 - **Usage**: Stores the result of comparing multiple food items.
 - **Functions**:
   - `compareFoodItems`
 
-## 8. NutritionalAnalysis
+**8. NutritionalAnalysis**
 
 - **Type**: Class/Object
 - **Usage**: Represents the result of a nutritional analysis, including breakdowns and insights.
@@ -481,7 +453,7 @@ This document outlines the key data structures and sources used in the Nutrition
   - `exportData`
   - `generateClientReport`
 
-## 9. UserPreferences
+**9. UserPreferences**
 
 - **Type**: Dictionary/Object
 - **Usage**: Stores user-specific settings such as preferred units of measurement and display preferences.
@@ -489,21 +461,21 @@ This document outlines the key data structures and sources used in the Nutrition
   - `displayNutritionalInfo`
   - `exportData`
 
-## 10. ExportFormat
+**10. ExportFormat**
 
 - **Type**: Enum
 - **Usage**: Defines available export formats (e.g., PDF, CSV).
 - **Functions**:
   - `exportData`
 
-## 11. SearchFilters
+**11. SearchFilters**
 
 - **Type**: Dictionary/Object
 - **Usage**: Stores advanced search and filtering criteria for food items.
 - **Functions**:
   - `searchFoodItems`
 
-## 12. Report
+**12. Report**
 
 - **Type**: Class/Object
 - **Usage**: Represents a formatted report containing meal plans, nutritional analyses, and insights for clients.
@@ -511,14 +483,14 @@ This document outlines the key data structures and sources used in the Nutrition
   - `generateClientReport`
   - `exportData`
 
-## 13. AlternativeFoodsList
+**13. AlternativeFoodsList**
 
 - **Type**: List of FoodItem objects
 - **Usage**: Stores food items with similar nutritional profiles to a reference item.
 - **Functions**:
   - `findAlternativeFoods`
 
-## 14. NutrientUnit
+**14. NutrientUnit**
 
 - **Type**: Enum
 - **Usage**: Defines units of measurement for nutritional information (e.g., grams, ounces, cups).
@@ -526,7 +498,7 @@ This document outlines the key data structures and sources used in the Nutrition
   - `displayNutritionalInfo`
   - `addFoodToMealPlan`
 
-## 15. AlertSystem
+**15. AlertSystem**
 
 - **Type**: Class/Object
 - **Usage**: Manages and triggers alerts when meal plans exceed or fall short of nutritional goals.
@@ -541,12 +513,6 @@ Provide pseudocode or flowcharts for all functions listed in Section 3.2.1 that 
 ## 4. User Interface Design
 
 ### 4.1 Structural Design
-Present a structural design, a hierarchy chart, showing the overall interface’s structure. Address:
-
-- Structure: How will the software be structured?
-- Information Grouping: How will information be organized?
-- Navigation: How will users navigate through the software?
-- Design Choices: Explain why these design choices were made.
 
 ![Structural Design](./Structural_Design.png)
 
