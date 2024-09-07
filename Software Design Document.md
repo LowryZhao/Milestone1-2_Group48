@@ -535,11 +535,13 @@ functions.
 ![Structural Design](./Structural_Design.png)
 
 ### 4.2	Visual Design
-Include all wireframes or mock-ups of the interface. Provide a discussion, explanation, and justification for your design choices. Hand-drawn wireframes are acceptable.
 
-- Interface Components: Clearly label all components.
-- Screens/Menus: Provide wireframes for different screens, menus, and options.
-- Design Details: Focus on the layout and size of components; color and graphics are not required. 
+- Interface Components: All the components with its funtions according to the section 3.2 system components, including search function, filter function, the function of get nutrition visualization results, creat nutrition plan function, save function and share function.
+  
+- Screens/Menus: For this desktop application, it contains ten screens and three main menus access, these design follow to the 4.1 structural design.
+
+- Design Details: All the screens use same layout, the logo is on top left corner of each screen. It contains people icon, health meaning and green color means nutritional food. The button use light pink color for user can easily access. The alternative button to access another page by using blue color font and underline, which is a link access function. 
+ 
 
 ![Visual Design](./Visual_design_1.png)
 ![Visual Design](./Visual_design_2.png)
