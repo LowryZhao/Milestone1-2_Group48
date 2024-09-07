@@ -513,6 +513,11 @@ Provide pseudocode or flowcharts for all functions listed in Section 3.2.1 that 
 ## 4. User Interface Design
 
 ### 4.1 Structural Design
+**1. Structure:**
+The software will use a hierarchical structure, with specific examples provided in the charts. The interface will start with the main function interface, which will be divided into several key parts and possess all the core functions.
+
+**2. Information Grouping:**
+
 
 ![Structural Design](./Structural_Design.png)
 
