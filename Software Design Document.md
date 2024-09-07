@@ -524,6 +524,14 @@ The software will use a hierarchical structure, with specific examples provided 
 - **Nutrition Filter**: Users can not only screen and filter based on the range of nutritional value, but also classify food into low, medium, and high nutritional levels.
 - **Nutrition Plan**: Users can create and share plan.
 
+**3. Navigation:**
+- **Main Page**:
+- **Subpage**:
+- **Return Navigation**:
+
+**4. Design Choices:**\
+
+
 ![Structural Design](./Structural_Design.png)
 
 ### 4.2	Visual Design
