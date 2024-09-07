@@ -530,7 +530,7 @@ functions.
 - **Return Navigation**:
 
 **4. Design Choices:**
-- 
+- Using a hierarchical structure can ensure that users can easily find the functions they need, and putting related functions together can help users better use the software.
 
 ![Structural Design](./Structural_Design.png)
 
