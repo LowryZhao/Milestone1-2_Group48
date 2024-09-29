@@ -1,13 +1,13 @@
 # Executive Summary
 
 Please provide your GitHub repository link.
-### GitHub Repository URL: https://github.com/XXXX/XXXXX.git
+### GitHub Repository URL: https://github.com/LowryZhao/Milestone1_Group48
 
 ---
 
 You should use your software to prepare an executive summary as outlined below for the five required features.
 
-## 1. [Feature 1 Name]
+## 1. [Login]
 ### Description  
 Briefly describe what this feature does.
 
@@ -23,7 +23,7 @@ Include screenshots for each step demonstrating the use of this feature.
 
 ---
 
-## 2. [Feature 2 Name]
+## 2. [Food Search]
 ### Description  
 Briefly describe what this feature does.
 
@@ -39,7 +39,7 @@ Include screenshots for each step demonstrating the use of this feature.
 
 ---
 
-## 3. [Feature 3 Name]
+## 3. [Nutrition Filter]
 ### Description  
 Briefly describe what this feature does.
 
@@ -56,7 +56,7 @@ Include screenshots for each step demonstrating the use of this feature.
 
 ---
 
-## 4. [Feature 4 Name]
+## 4. [Nutrition Plan Development and Sharing]
 ### Description  
 Briefly describe what this feature does.
 
@@ -73,7 +73,7 @@ Include screenshots for each step demonstrating the use of this feature.
 
 ---
 
-## 5. [Feature 5 Name]
+## 5. [Get Results]
 ### Description  
 Briefly describe what this feature does.
 
