@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e1dde475-dfbf-4fdb-b515-d4db1a0fb303)# Project Plan
+# Project Plan
 
 ## Project Name: Desktop Application Project
 ## Group Number: 48
@@ -62,7 +62,8 @@ For the internal teams, first is software engineers that responsible for coding 
 
 ### 1.3 Project Scope
 
-During the desktop application project and the final application product, user acceptance testing is significant process at the end of project. It assist application to identify issues and improve the system functions. Additionally, user guidelines, IT support and feedback channel are essential for this desktop application product to develop the application system for users to conveniently access the functions of analysing and visualising data. On the other hand, this desktop application project and product excludes doing complex task processes about searching or filtering outside database categories or unrelated resources, the high -level output graphs or diagrams and the use of third-party applications.
+During the desktop application project and the final application product, the clear scope will include three objectives are illustrated in the section 1.1. There are user-friendly interface that make user easily access this desktop application, data analysis capabilities that support this desktop application can execute different data analysis function effectively, and visualisation that the results of data information can be displayed visually. Also, user acceptance testing is significant process at the end of project. It assists application to identify issues and improve the system functions. Additionally, user guidelines, IT support and feedback channel are essential for this desktop application product to develop the application system for users to conveniently access the functions of analysing and visualising data. On the other hand, this desktop application project and product excludes doing complex task processes about searching or filtering outside database categories or unrelated resources, the high -level output graphs or diagrams and the use of third-party applications.
+
 
 ![project_scope_update](./project_scope_update.png)
 
