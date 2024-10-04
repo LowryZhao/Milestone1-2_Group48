@@ -7,9 +7,9 @@ Please provide your GitHub repository link.
 
 You should use your software to prepare an executive summary as outlined below for the five required features.
 
-## 1. [Login]
+## 1. [Food Search]
 ### Description  
-Briefly describe what this feature does.
+Enable users to search for foods by name and display all the nutritional information.
 
 ### Steps
 1. Step-by-step instructions for using this feature.
@@ -23,9 +23,9 @@ Include screenshots for each step demonstrating the use of this feature.
 
 ---
 
-## 2. [Food Search]
+## 2. [Nutrition Breakdown]
 ### Description  
-Briefly describe what this feature does.
+Enable users to select one food, and display pie charts & bar graphs showing the breakdown of different nutrients for the selected food.
 
 ### Steps
 1. Step-by-step instructions for using this feature.
@@ -39,9 +39,9 @@ Include screenshots for each step demonstrating the use of this feature.
 
 ---
 
-## 3. [Nutrition Filter]
+## 3. [Nutrition Range Filter]
 ### Description  
-Briefly describe what this feature does.
+Enable users to select one of nutrition and input minimum & maximum values, and the tool will display a list of foods that fall within those ranges.
 
 ### Steps
 1. Step-by-step instructions for using this feature.
@@ -56,9 +56,9 @@ Include screenshots for each step demonstrating the use of this feature.
 
 ---
 
-## 4. [Nutrition Plan Development and Sharing]
+## 4. [Nutrition Level Filter]
 ### Description  
-Briefly describe what this feature does.
+Enable users to filter foods by nutritional content levels — low, mid, and high, which including fat, protein, carbohydrates, sugar, and nutritional density.
 
 ### Steps
 1. Step-by-step instructions for using this feature.
@@ -73,9 +73,9 @@ Include screenshots for each step demonstrating the use of this feature.
 
 ---
 
-## 5. [Get Results]
+## 5. [Export as csv file]
 ### Description  
-Briefly describe what this feature does.
+Enable users to export selected food data information as csv file in your device.
 
 ### Steps
 1. Step-by-step instructions for using this feature.
@@ -89,3 +89,21 @@ Include screenshots for each step demonstrating the use of this feature.
 
 
 ---
+
+## 6. [Show password]
+### Description  
+Enable users to see the password they have entered.
+
+### Steps
+1. Step-by-step instructions for using this feature.
+2. Add additional steps as needed.
+
+### Screenshots
+Include screenshots for each step demonstrating the use of this feature.    
+![1](./visual_design.png)
+
+![2](./visual_design.png)
+
+
+---
+
