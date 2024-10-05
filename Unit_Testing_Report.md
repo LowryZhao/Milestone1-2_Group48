@@ -38,7 +38,6 @@ those functions, for example:
 |-------------------------------|---------------------|
 | `Apple`               | `DataFrame containing Apple information`                 |
 | `Banana`              | `DataFrame containing Banana information`                |
-| `add more cases in necessary` | `...`               |
 
 - **1) Code for the Test Function**
 ```python
