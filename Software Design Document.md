@@ -146,7 +146,7 @@
    - Users should be able to export nutritional data, meal plans, and analyses in various formats (e.g., PDF, CSV).
    - The system must generate professional-looking reports for clients, summarizing meal plans and nutritional insights.
 
-$${\color{red}- Beneficial users: }$$
+- Beneficial users:
 
 1.	Nutritionists:
    - They can customize personalized nutrition plans based on customer needs, manage their diet reasonably, and provide nutritional advice with specific data. The software helped them streamline their workflow and enable them to quickly and efficiently propose suggestions.
