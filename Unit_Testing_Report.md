@@ -105,21 +105,19 @@ def test_nutrition_breakdown_invalid():
     assert nutrients == {}
 ```
 
-### Test Case 3:
+### Test Case 3: nutrition_range_filter(selected_nutrition, min_value, max_value)
 - **Test Function/Module**
-  - `test_divide_valid()`
-  - `test_divide_invalid()`
+  - `test_nutrition_range_valid`
+  - `test_nutrition_range_invalid`
 - **Tested Function/Module**
-  - `divide(a, b)`
+  - `nutrition_range_filter(selected_nutrition, min_value, max_value)`
 - **Description**
-  - A brief description of the tested function's usage, including its purpose, input, and output.
+  - The purpose of this test function is to filter food based on the selected nutritional components and range. This function will input the selected_nutrition(string), min_ralue (float), max_ralue (float), and output a list of food that meets the criteria.
 - **1) Valid Input and Expected Output**  
 
 | **Valid Input**               | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 2)`               | `5`                 |
-| `divide(10, -2)`              | `-5`                |
-| `add more cases in necessary` | `...`               |
+| `"Protein", 10, 20`               | `List of foods with protein between 10-20 g`                 |
 
 - **1) Code for the Test Function**
 ```python
