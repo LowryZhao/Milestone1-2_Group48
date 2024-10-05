@@ -16,10 +16,11 @@ Enable users to search for foods by name and display all the nutritional informa
 2. Add additional steps as needed.
 
 ### Screenshots
-Include screenshots for each step demonstrating the use of this feature.  
-![1](./visual_design.png)
+![After_Login_button](./After_Login_button.png)
 
-![2](./visual_design.png)
+![1Food_search](./1Food_search.png)
+
+![1Enter_food_name](./1Enter_food_name.png)
 
 ---
 
@@ -32,10 +33,11 @@ Enable users to select one food, and display pie charts & bar graphs showing the
 2. Add additional steps as needed.
 
 ### Screenshots
-Include screenshots for each step demonstrating the use of this feature.  
-![1](./visual_design.png)
+![After_Next_button](./After_Next_button.png)
 
-![2](./visual_design.png)
+![2Nutrition_breakdown](./2Nutrition_breakdown.png)
+
+![After_Return_button](./After_Return_button.png)
 
 ---
 
@@ -49,10 +51,11 @@ Enable users to select one of nutrition and input minimum & maximum values, and 
 
 ### Screenshots
 Include screenshots for each step demonstrating the use of this feature.    
-![1](./visual_design.png)
+![3Nutrition_range_filter](./3Nutrition_range_filter.png)
 
-![2](./visual_design.png)
+![3Select_nutrition](./3Select_nutrition.png)
 
+![3Enter_value](./3Enter_value.png)
 
 ---
 
@@ -64,12 +67,16 @@ Enable users to filter foods by nutritional content levels — low, mid, and hig
 1. Step-by-step instructions for using this feature.
 2. Add additional steps as needed.
 
-### Screenshots
-Include screenshots for each step demonstrating the use of this feature.    
-![1](./visual_design.png)
+### Screenshots 
+![After_Next_button2](./After_Next_button2.png)
 
-![2](./visual_design.png)
+![4Nutrition_level_filter](./4Nutrition_level_filter.png)
 
+![4Choose_level](./4Choose_level.png)
+
+![4Click_level_search](./4Click_level_search.png)
+
+![After_Return_button2](./After_Return_button2.png)
 
 ---
 
@@ -83,10 +90,11 @@ Enable users to export selected food data information as csv file in your device
 
 ### Screenshots
 Include screenshots for each step demonstrating the use of this feature.    
-![1](./visual_design.png)
+![5Export_as_csv](./5Export_as_csv.png)
 
-![2](./visual_design.png)
+![5Successfully_export](./5Successfully_export.png)
 
+![5Export_display](./5Export_display.png)
 
 ---
 
@@ -100,9 +108,9 @@ Enable users to see the password they have entered.
 
 ### Screenshots
 Include screenshots for each step demonstrating the use of this feature.    
-![1](./visual_design.png)
+![6Hidden_password](./6Hidden_password.png)
 
-![2](./visual_design.png)
+![6Show_password](./6Show_password.png)
 
 
 ---
