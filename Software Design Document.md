@@ -154,6 +154,9 @@
 2.	Doctors:
    - They can provide more scientific nutrition plans for patients with certain special diseases, helping doctors better treat patients. The nutritional data filtering function in the software can better help doctors find suitable foods for patients.
 
+3.	Chefs:
+   - They can use software to help customers with special needs find suitable food. They can also use the software to optimize customers' dietary habits and find alternative foods.
+
 
 
 
