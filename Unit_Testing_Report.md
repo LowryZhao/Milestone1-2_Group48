@@ -232,8 +232,41 @@ def test_divide_invalid():
 ```
 
 ### Test Case 6:
+- **Test Function/Module**
+  - `test_divide_valid()`
+  - `test_divide_invalid()`
+- **Tested Function/Module**
+  - `divide(a, b)`
+- **Description**
+  - A brief description of the tested function's usage, including its purpose, input, and output.
+- **1) Valid Input and Expected Output**  
 
-add more test cases if necessary.
+| **Valid Input**               | **Expected Output** |
+|-------------------------------|---------------------|
+| `divide(10, 2)`               | `5`                 |
+| `divide(10, -2)`              | `-5`                |
+| `add more cases in necessary` | `...`               |
+
+- **1) Code for the Test Function**
+```python
+def test_divide_valid():
+    assert divide(10, 2) == 5
+    assert divide(10, -2) == -5
+```
+- **2) Invalid Input and Expected Output**
+
+| **Invalid Input**             | **Expected Output** |
+|-------------------------------|---------------------|
+| `divide(10, 0)`               | `Handle Exception`  |
+| `add more cases in necessary` | `...`               |
+
+- **2) Code for the Test Function**
+```python
+def test_divide_invalid():
+    with pytest.raises(ValueError) as exc_info:
+        divide(10, 0)
+    assert exc_info.type is ValueError
+```
 
 ## 3. **Testing Report Summary**
 Include a screenshot of unit_test.html showing the results of all the above tests. 
