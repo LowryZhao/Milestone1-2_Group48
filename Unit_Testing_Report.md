@@ -196,76 +196,81 @@ def test_nutrition_level_invalid():
 
 ### Test Case 5: export_as_csv(nutrient_data, path)
 - **Test Function/Module**
-  - `test_divide_valid()`
-  - `test_divide_invalid()`
+  - `test_export_as_csv_valid(tmp_path)`
+  - `test_export_as_csv_path_invalid()`
 - **Tested Function/Module**
-  - `divide(a, b)`
+  - `export_as_csv(nutrient_data, path)`
 - **Description**
-  - A brief description of the tested function's usage, including its purpose, input, and output.
+  - The purpose of this test function is to export the given nutritional data to a CSV file. The input of this function is nutrition_data (dictionary) and path (string), and the output is to save the CSV file to the specified path.
 - **1) Valid Input and Expected Output**  
 
 | **Valid Input**               | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 2)`               | `5`                 |
-| `divide(10, -2)`              | `-5`                |
-| `add more cases in necessary` | `...`               |
+| `nutrient_data (dictionary)`               | `Saves the data to CSV at path`     |
 
 - **1) Code for the Test Function**
 ```python
-def test_divide_valid():
-    assert divide(10, 2) == 5
-    assert divide(10, -2) == -5
+def test_export_as_csv_valid(tmp_path):
+    nutrient_data = {
+        "Nutrient": ["Fat", "Protein"],
+        "Amount": [10, 5]
+    }
+    path = tmp_path / "nutrients.csv"
+    export_as_csv(nutrient_data, str(path))
+    assert path.exists()
 ```
 - **2) Invalid Input and Expected Output**
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
-| `add more cases in necessary` | `...`               |
+| `Invalid path`               | `PermissionError`  |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
-    with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
-    assert exc_info.type is ValueError
+def test_export_as_csv_path_invalid():
+    nutrient_data = {
+        "Nutrient": ["Fat", "Protein"],
+        "Amount": [10, 5]
+    }
+    invalid_path = "/root/nutrients.csv"
+    with pytest.raises(PermissionError):
+        export_as_csv(nutrient_data, invalid_path)
 ```
 
-### Test Case 6:
+### Test Case 6: show_password(current_password, checkbox_state)
 - **Test Function/Module**
-  - `test_divide_valid()`
-  - `test_divide_invalid()`
+  - `test_show_password_checked`
+  - `test_show_password_unchecked()`
 - **Tested Function/Module**
-  - `divide(a, b)`
+  - `show_password(current_password, checkbox_state)`
 - **Description**
-  - A brief description of the tested function's usage, including its purpose, input, and output.
+  - The purpose of this function is to switch the visibility of passwords based on the status of the checkbox. This function will input the user's current password and checkbox_state, and output the plain text version or hidden text of the password.
 - **1) Valid Input and Expected Output**  
 
 | **Valid Input**               | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 2)`               | `5`                 |
-| `divide(10, -2)`              | `-5`                |
-| `add more cases in necessary` | `...`               |
+| `"mypassword", True (checkbox checked)`               | `Returns "mypassword" (plain text)`              |
+| `"mypassword", False (checkbox unchecked)`              | `Returns "**********" (hidden text)`           |
 
 - **1) Code for the Test Function**
 ```python
-def test_divide_valid():
-    assert divide(10, 2) == 5
-    assert divide(10, -2) == -5
+def test_show_password_checked():
+    password = "mypassword"
+    result = show_password(password, True)
+    assert result == password
 ```
 - **2) Invalid Input and Expected Output**
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
-| `add more cases in necessary` | `...`               |
+| `"mypassword", False (checkbox unchecked)`              | `Returns "**********" (hidden text)`      |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
-    with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
-    assert exc_info.type is ValueError
+def test_show_password_unchecked():
+    password = "mypassword"
+    result = show_password(password, False)
+    assert result == "**********"
 ```
 
 ## 3. **Testing Report Summary**
