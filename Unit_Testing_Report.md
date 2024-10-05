@@ -30,7 +30,7 @@ those functions, for example:
   - `test_on_search_valid()`
   - `test_on_search_invalid()`
 - **Tested Function/Module**
-  - `divide(Apple, Banana)`
+  - `on_search(food_name)`
 - **Description**
   - The purpose of this test function is to search for matching foods in the dataset, where the input (foodname) represents the name of the food. This function will output data containing search results.
 - **1) Valid Input and Expected Output**  
@@ -69,36 +69,40 @@ def test_on_search_invalid():
   - `test_nutrition_breakdown_valid()`
   - `test_nutrition_breakdown_invalid()`
 - **Tested Function/Module**
-  - `divide(a, b)`
+  - `nutrition_breakdown(get_searched)`
 - **Description**
-  - A brief description of the tested function's usage, including its purpose, input, and output.
+  - The purpose of this test function is to generate a nutritional composition table for the selected food. This function takes the selected food as input and outputs a nutritional composition table for that food.
 - **1) Valid Input and Expected Output**  
 
 | **Valid Input**               | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 2)`               | `5`                 |
-| `divide(10, -2)`              | `-5`                |
-| `add more cases in necessary` | `...`               |
+| `Food info containing "Fat": 10, "Protein": 5`               | `{"Fat": 10, "Protein": 5, "Carbohydrates": 15}`                 |
 
 - **1) Code for the Test Function**
 ```python
-def test_divide_valid():
-    assert divide(10, 2) == 5
-    assert divide(10, -2) == -5
+def test_nutrition_breakdown_valid():
+    get_searched = pd.Series({"Fat": 10, "Protein": 5, "Carbohydrates": 15})
+    nutrients = nutrition_breakdown(get_searched)
+    assert nutrients['Fat'] == 10
+    assert nutrients['Protein'] == 5
+    assert nutrients['Carbohydrates'] == 15
 ```
 - **2) Invalid Input and Expected Output**
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
-| `add more cases in necessary` | `...`               |
+| `None`               | `Error`  |
+| `Empty` | `Returns an empty nutrient dict`               |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
-    with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
-    assert exc_info.type is ValueError
+def test_nutrition_breakdown_invalid():
+    with pytest.raises(ValueError):
+        nutrition_breakdown(None)
+
+    empty_series = pd.Series()
+    nutrients = nutrition_breakdown(empty_series)
+    assert nutrients == {}
 ```
 
 ### Test Case 3:
