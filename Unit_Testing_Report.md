@@ -14,7 +14,8 @@ those functions, for example:
 
 | **Tested Functions** | **Test Functions**                               |
 |----------------------|--------------------------------------------------|
-| `on_search(food_name)`         | `test_nutrition_breakdown_valid()` <br> `test_nutrition_breakdown_invalid()`       |
+| `on_search(food_name)`         | `test_on_search_valid()` <br> `test_on_search_invalid()`       |
+| `nutrition_breakdown(get_searched)`         | `test_nutrition_breakdown_valid()` <br> `test_nutrition_breakdown_invalid()`       |
 | `nutrition_range_filter(selected_nutrition, min_value, max_value)	`      | `test_nutrition_range_valid()` <br> `test_nutrition_range_invalid()` |
 | `nutrition_level_filter(selected_nutrition, selected_level)`                | `test_nutrition_level_valid()` <br> `test_nutrition_level_valid()` |
 | `export_as_csv(nutrient_data, path)`         | `test_export_as_csv_valid()` <br> `test_export_as_csv_path_invalid()`       |
