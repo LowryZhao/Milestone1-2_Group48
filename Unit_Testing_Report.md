@@ -63,10 +63,10 @@ def test_on_search_invalid():
     result = on_search('', df)
     assert result.empty
 ```
-### Test Case 2:
+### Test Case 2: nutrition_breakdown(get_searched)
 - **Test Function/Module**
-  - `test_divide_valid()`
-  - `test_divide_invalid()`
+  - `test_nutrition_breakdown_valid()`
+  - `test_nutrition_breakdown_invalid()`
 - **Tested Function/Module**
   - `divide(a, b)`
 - **Description**
