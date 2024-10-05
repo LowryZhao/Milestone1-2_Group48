@@ -157,7 +157,8 @@
 3.	Chefs:
    - They can use software to help customers with special needs find suitable food. They can also use the software to optimize customers' dietary habits and find alternative foods.
 
-
+4.	Coaches:
+   - Coaches can use this software to provide players with a reasonable nutrition plan to help them train and replenish the energy they need.
 
 
 ### 2.2	Software Requirements
