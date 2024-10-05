@@ -151,10 +151,10 @@
 1.	Nutritionists:
    - They can customize personalized nutrition plans based on customer needs, manage their diet reasonably, and provide nutritional advice with specific data. The software helped them streamline their workflow and enable them to quickly and efficiently propose suggestions.
 
-2. Doctors:
+2.	Doctors:
    - They can provide more scientific nutrition plans for patients with certain special diseases, helping doctors better treat patients. The nutritional data filtering function in the software can better help doctors find suitable foods for patients.
-      
-4. 
+
+
 
 
 ### 2.2	Software Requirements
