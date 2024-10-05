@@ -24,41 +24,45 @@ those functions, for example:
 
 ## 2. **Test Case Details**
 
-### Test Case 1:
+### Test Case 1: on_search(food_name)
 - **Test Function/Module**
-  - `test_divide_valid()`
-  - `test_divide_invalid()`
+  - `test_on_search_valid()`
+  - `test_on_search_invalid()`
 - **Tested Function/Module**
-  - `divide(a, b)`
+  - `divide(Apple, Banana)`
 - **Description**
-  - A brief description of the tested function's usage, including its purpose, input, and output.
+  - The purpose of this test function is to search for matching foods in the dataset, where the input (foodname) represents the name of the food. This function will output data containing search results.
 - **1) Valid Input and Expected Output**  
 
 | **Valid Input**               | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 2)`               | `5`                 |
-| `divide(10, -2)`              | `-5`                |
+| `Apple`               | `DataFrame containing Apple information`                 |
+| `Banana`              | `DataFrame containing Banana information`                |
 | `add more cases in necessary` | `...`               |
 
 - **1) Code for the Test Function**
 ```python
-def test_divide_valid():
-    assert divide(10, 2) == 5
-    assert divide(10, -2) == -5
+def test_on_search_valid():
+    df = pd.DataFrame({'food': ['apple', 'banana', 'cherry']})
+    result = on_search('apple', df)
+    assert not result.empty
+    assert 'apple' in result['food'].values
 ```
 - **2) Invalid Input and Expected Output**
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
-| `add more cases in necessary` | `...`               |
+| `unknown_food`               | `Returns an empty dataframe`  |
+| `empty string` | `Returns an empty dataframe`               |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
-    with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
-    assert exc_info.type is ValueError
+def test_on_search_invalid():
+    df = pd.DataFrame({'food': ['apple', 'banana', 'cherry']})
+    result = on_search('unknown_food', df)
+    assert result.empty
+    result = on_search('', df)
+    assert result.empty
 ```
 ### Test Case 2:
 - **Test Function/Module**
