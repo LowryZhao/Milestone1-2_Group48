@@ -147,11 +147,13 @@
    - The system must generate professional-looking reports for clients, summarizing meal plans and nutritional insights.
 
 - Beneficial users:
-  1.	Nutritionists:
+1.	Nutritionists:
      - They can customize personalized nutrition plans based on customer needs, manage their diet reasonably, and provide nutritional advice with specific data. The software helped them streamline their workflow and enable them to quickly and efficiently propose suggestions.
-  2. Doctors:
+
+2. Doctors:
      - They can provide more scientific nutrition plans for patients with certain special diseases, helping doctors better treat patients. The nutritional data filtering function in the software can better help doctors find suitable foods for patients.
-  3. 
+      
+3. 
 
 
 ### 2.2	Software Requirements
