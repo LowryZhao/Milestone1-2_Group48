@@ -121,64 +121,80 @@ def test_nutrition_breakdown_invalid():
 
 - **1) Code for the Test Function**
 ```python
-def test_divide_valid():
-    assert divide(10, 2) == 5
-    assert divide(10, -2) == -5
+def test_nutrition_range_valid():
+    df = pd.DataFrame({
+        'food': ['apple', 'banana', 'cherry'],
+        'Protein': [15, 5, 25]
+    })
+    result = nutrition_range_filter('Protein', 10, 20, df)
+    assert isinstance(result, list)
+    assert len(result) == 1
+    assert 'apple' in result
 ```
 - **2) Invalid Input and Expected Output**
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
-| `add more cases in necessary` | `...`               |
+| `min_value greater than max_value`               | `Handle Exception`  |
+| `add more cases in necessary` | `ValueError`               |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
-    with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
-    assert exc_info.type is ValueError
+def test_nutrition_range_invalid():
+    df = pd.DataFrame({
+        'food': ['apple', 'banana', 'cherry'],
+        'Fat': [10, 20, 30]
+    })
+    with pytest.raises(ValueError):
+        nutrition_range_filter('Fat', 20, 10, df)
 ```
 
-### Test Case 4:
+### Test Case 4: nutrition_level_filter(selected_nutrition, selected_level, df)
 - **Test Function/Module**
-  - `test_divide_valid()`
-  - `test_divide_invalid()`
+  - `test_nutrition_level_valid()`
+  - `test_nutrition_level_invalid()`
 - **Tested Function/Module**
-  - `divide(a, b)`
+  - `nutrition_level_filter(selected_nutrition, selected_level, df)`
 - **Description**
-  - A brief description of the tested function's usage, including its purpose, input, and output.
+  - The purpose of this test function is to filter food based on nutritional levels (low, medium, high).
+This function will input data including the selected nutrients, levels, and food information, and output a list of foods that match the specified criteria.
 - **1) Valid Input and Expected Output**  
 
 | **Valid Input**               | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 2)`               | `5`                 |
-| `divide(10, -2)`              | `-5`                |
-| `add more cases in necessary` | `...`               |
+| `"Fat", "low"`               | `List of foods with low fat content`                 |
 
 - **1) Code for the Test Function**
 ```python
-def test_divide_valid():
-    assert divide(10, 2) == 5
-    assert divide(10, -2) == -5
+def test_nutrition_level_valid():
+    df = pd.DataFrame({
+        'food': ['apple', 'banana', 'cherry'],
+        'Fat': [5, 15, 25]
+    })
+    result = nutrition_level_filter('Fat', 'low', df)
+    assert isinstance(result, list)
+    assert len(result) == 1
+    assert 'apple' in result
 ```
 - **2) Invalid Input and Expected Output**
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `divide(10, 0)`               | `Handle Exception`  |
+| `"Protein", "medium"`               | `ValueError`  |
 | `add more cases in necessary` | `...`               |
 
 - **2) Code for the Test Function**
 ```python
-def test_divide_invalid():
-    with pytest.raises(ValueError) as exc_info:
-        divide(10, 0)
-    assert exc_info.type is ValueError
+def test_nutrition_level_invalid():
+    df = pd.DataFrame({
+        'food': ['apple', 'banana', 'cherry'],
+        'Protein': [10, 20, 30]
+    })
+    with pytest.raises(ValueError):
+        nutrition_level_filter('Protein', 'medium', df)
 ```
 
-
-### Test Case 5:
+### Test Case 5: export_as_csv(nutrient_data, path)
 - **Test Function/Module**
   - `test_divide_valid()`
   - `test_divide_invalid()`
