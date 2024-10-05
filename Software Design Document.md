@@ -160,6 +160,7 @@
 4.	Coaches:
    - Coaches can use this software to provide players with a reasonable nutrition plan to help them train and replenish the energy they need.
 
+![user](./user.png)
 
 ### 2.2	Software Requirements
 
