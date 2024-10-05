@@ -17,6 +17,7 @@ from template_frame_7 import MyFrame7 as MyFrame7
 from template_frame_8 import MyFrame8 as MyFrame8
 from template_frame_9 import MyFrame9 as MyFrame9
 from template_frame_10 import MyFrame10 as MyFrame10
+from nutrition_function import on_search, nutrition_breakdown, nutrition_range_filter, nutrition_level_filter, export_as_csv, show_password
 
 matplotlib.use('WXAgg')
 
