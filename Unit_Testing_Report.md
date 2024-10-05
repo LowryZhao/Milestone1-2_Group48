@@ -59,10 +59,12 @@ def test_on_search_valid():
 ```python
 def test_on_search_invalid():
     df = pd.DataFrame({'food': ['apple', 'banana', 'cherry']})
+
     result = on_search('unknown_food', df)
-    assert result.empty
+    assert result.empty, f"Expected empty result but got {result}"
+
     result = on_search('', df)
-    assert result.empty
+    assert result.empty, f"Expected empty result but got {result}"
 ```
 ### Test Case 2: nutrition_breakdown(get_searched)
 - **Test Function/Module**
@@ -81,11 +83,12 @@ def test_on_search_invalid():
 - **1) Code for the Test Function**
 ```python
 def test_nutrition_breakdown_valid():
-    get_searched = pd.Series({"Fat": 10, "Protein": 5, "Carbohydrates": 15})
+    get_searched = pd.Series({"Fat": 10, "Protein": 5, "Carbohydrates": 15, "Dietary Fiber": 5})
     nutrients = nutrition_breakdown(get_searched)
     assert nutrients['Fat'] == 10
     assert nutrients['Protein'] == 5
     assert nutrients['Carbohydrates'] == 15
+    assert nutrients['Fiber'] == 5
 ```
 - **2) Invalid Input and Expected Output**
 
@@ -97,12 +100,12 @@ def test_nutrition_breakdown_valid():
 - **2) Code for the Test Function**
 ```python
 def test_nutrition_breakdown_invalid():
-    with pytest.raises(ValueError):
+    with pytest.raises(ValueError, match="No valid data for breakdown"):
         nutrition_breakdown(None)
 
     empty_series = pd.Series()
-    nutrients = nutrition_breakdown(empty_series)
-    assert nutrients == {}
+    with pytest.raises(ValueError, match="No valid data for breakdown"):
+        nutrition_breakdown(empty_series)
 ```
 
 ### Test Case 3: nutrition_range_filter(selected_nutrition, min_value, max_value)
@@ -232,8 +235,8 @@ def test_export_as_csv_path_invalid():
         "Nutrient": ["Fat", "Protein"],
         "Amount": [10, 5]
     }
-    invalid_path = "/root/nutrients.csv"
-    with pytest.raises(PermissionError):
+    invalid_path = "/invalid_directory/nutrients.csv"
+    with pytest.raises(OSError):
         export_as_csv(nutrient_data, invalid_path)
 ```
 
