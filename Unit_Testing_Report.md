@@ -19,7 +19,7 @@ those functions, for example:
 | `nutrition_range_filter(selected_nutrition, min_value, max_value)	`      | `test_nutrition_range_valid()` <br> `test_nutrition_range_invalid()` |
 | `nutrition_level_filter(selected_nutrition, selected_level)`                | `test_nutrition_level_valid()` <br> `test_nutrition_level_valid()` |
 | `export_as_csv(nutrient_data, path)`         | `test_export_as_csv_valid()` <br> `test_export_as_csv_path_invalid()`       |
-| `show_password()`         | `test_show_password_checked()` <br> `test_show_password_unchecked()`       |
+| `show_password(current_password, checkbox_state)`         | `test_show_password_checked()` <br> `test_show_password_unchecked()`       |
 
 ---
 
