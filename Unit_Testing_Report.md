@@ -91,8 +91,8 @@ def test_nutrition_breakdown_valid():
 
 | **Invalid Input**             | **Expected Output** |
 |-------------------------------|---------------------|
-| `None`               | `Error`  |
-| `Empty` | `Returns an empty nutrient dict`               |
+| `None`               | `ValueError`  |
+| `Empty Series` | `Returns an empty nutrient dict`               |
 
 - **2) Code for the Test Function**
 ```python
